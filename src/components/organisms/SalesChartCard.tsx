@@ -13,7 +13,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
-import { SalesRecord } from '@/type/sales';
+import { SalesRecord } from '../../types/sales';
 import { Button } from '../atoms/Button';
 import { FilterGroup } from '../molecules/FilterGroup';
 
