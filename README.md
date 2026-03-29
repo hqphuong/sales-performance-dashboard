@@ -54,3 +54,5 @@ npm run dev
 
 Open http://localhost:3000/dashboard to see the result.
 
+## Dashboard Preview
+<img width="1919" height="1079" alt="preview" src="https://github.com/user-attachments/assets/0dd8064a-3e4b-44dd-8cd5-5008a2fbd659" />
