@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState, useEffect, useMemo } from 'react';
 import {
   BarChart,
@@ -13,7 +12,14 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
-import { SalesRecord } from '../../types/sales';
+export interface SalesRecord {
+  year: number;
+  month: string;
+  monthOrder: number; 
+  category: string;   
+  sales: number;
+}
+
 import { Button } from '../atoms/Button';
 import { FilterGroup } from '../molecules/FilterGroup';
 
